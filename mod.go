@@ -6,6 +6,6 @@ import (
 	_ "xorm.io/xorm"
 )
 
-func Hello(name string) string {
-	return fmt.Sprintf("hello: %s", name)
+func Hello(name, lang string) string {
+	return fmt.Sprintf("hello: %s lang: %s", name, lang)
 }
